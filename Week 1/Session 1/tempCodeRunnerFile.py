@@ -1,4 +1,3 @@
-# Creating a variable called name
 name = "Sandra"
 
 # Creating a variable that contains your interests
