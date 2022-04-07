@@ -1,8 +1,8 @@
 ## Homework
 
-## Why is the `return` statement used instead of the `print` function?
+### Why is the `return` statement used instead of the `print` function?
 
-## Different types of exception & how to handle them
+### Different types of exception & how to handle them
 
 ### Resources
 
