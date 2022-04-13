@@ -1,13 +1,16 @@
-# Create Car class
+# Python Bootcamp Day 6:
+# Fundamentals of Python
+# https://youtu.be/R-B3n-Cdx2I
 
+# Create Car class
 class Car:
-    # Add methods
+    # Define attributes
     def __init__(self,model,colour):
         self.model = model
         self.colour = colour
-
+    # Class method
     def drive_forward(self):
-        return("Moving forward...", {self.colour})
+        return("Moving forward...", self.colour)
 
 # Instantiate Car class
 car1 = Car("CR7","White")
