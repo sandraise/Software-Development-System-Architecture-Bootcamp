@@ -28,14 +28,18 @@ blu = Parrot("Blu", 10)
 woo = Parrot("Woo", 15)
 
 # access the class attributes
-print("Blu is a {}".format(blu.__class__.species))
-print("Woo is a also a {}".format(woo.__class__.species))
 
-# access the instance attributes
-print("{} is {} years old".format(blu.name,blu.age))
-print("{} is {} years old".format(woo.name,woo.age))
+def demo_print():
+    print("Hello World")
 
-# Instance methods
-print(blu.sing("Happy"))
-print(woo.dance())
+if "__name__" == "__parrot__": 
+    print("Blu is a {}".format(blu.__class__.species))
+    print("Woo is a also a {}".format(woo.__class__.species))
 
+    # access the instance attributes
+    print("{} is {} years old".format(blu.name,blu.age))
+    print("{} is {} years old".format(woo.name,woo.age))
+
+    # Instance methods
+    print(blu.sing("Happy"))
+    print(woo.dance())

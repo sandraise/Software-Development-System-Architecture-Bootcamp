@@ -1,3 +1,6 @@
+# Session 8
+# https://www.youtube.com/watch?v=S3u5lVBa8NQ
+
 from app_1 import location_finder as lf
 from app_1 import food_finder as ff
 import random

@@ -1,1 +1,1 @@
-n"))
+print(sys.path)

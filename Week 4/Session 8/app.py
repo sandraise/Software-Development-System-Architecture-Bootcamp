@@ -1,7 +1,9 @@
 from car import create_car
 import car
 import sys
-sys.path.append('../')
+sys.path.append('/Users/sandraise/Desktop/Software Development & System Architecture Bootcamp/Week 4/Session 7')
+# sys.path.append('../')
+# print(sys.path)
 import parrot as bird
 
 
