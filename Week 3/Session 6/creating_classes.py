@@ -1,5 +1,5 @@
 # Python Bootcamp Day 6:
-# Fundamentals of Python
+# Design Principles
 # https://youtu.be/R-B3n-Cdx2I
 
 # Create Car class
@@ -8,7 +8,7 @@ class Car:
     def __init__(self,model,colour):
         self.model = model
         self.colour = colour
-    # Class method
+    # Class methods
     def drive_forward(self):
         return("Moving forward...", self.colour)
 

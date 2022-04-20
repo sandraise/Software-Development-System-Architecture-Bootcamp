@@ -1,4 +1,5 @@
-# Session 8
+# Python Bootcamp Day 8:
+# Design Principles
 # https://www.youtube.com/watch?v=S3u5lVBa8NQ
 
 from app_1 import location_finder as lf

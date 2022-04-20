@@ -1,5 +1,5 @@
 # Python Bootcamp Day 7:
-# Fundamentals of Python
+# Design Principles
 # https://youtu.be/6Ikc90qunJs
 
 # Create Parrot class with properties and methods
