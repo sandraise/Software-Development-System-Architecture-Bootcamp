@@ -2,7 +2,6 @@
 # Design Principles
 # https://www.youtube.com/watch?v=Zv2RbaLfjCs
 
-
 # Create Bird class
 class Bird:
     # Bird class methods
