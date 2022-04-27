@@ -1,6 +1,6 @@
 # Python Bootcamp Day 10:
 # Design Principles
-# 
+# https://youtu.be/t3BnTxcMbEQ
 
 class Parrot:
 
