@@ -8,35 +8,28 @@
 import random
 import itertools
 
-class Deck():
-    def __init__(self):
-        suits = ['Hearts','Diamonds','Clubs','Spades'] 
-        values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
-        deck = list(itertools.product(values, suits))
-        
-        # middle = deck[int(len(deck)/2)]
-        # print(middle)
-
-        # Nested for loop
-        
-        for i,j in deck:
-            print("%s of %s" % (i, j))
-        
-class Card():
+class Card:
     def __init__(self, suit, value):
         self.suit = suit
-        self.value = value
+        self.value = value  
         
     def __repr__(self):
         return "{} of {}".format(self.value, self.suit)
         
+class Deck:
+    def __init__(self):
+        suits = ['Hearts','Diamonds','Clubs','Spades'] 
+        values = ['A','2','3','4','5','6','7','8','9','10','J','Q','K']
+        
+        deck = list(itertools.product(values, suits))
+        random.shuffle(deck)
+
+        for i in range(1):
+            suit_val = deck[i][0]
+            value_val = deck[i][1]
+
+            print(Card(value_val,suit_val))
+
+
 deck = Deck()
 print(deck)
-
-
-card = Card("Diamonds",2)
-print(card)
-
-# Examples
-# deck_1 = Deck()
-# print(deck_1)
